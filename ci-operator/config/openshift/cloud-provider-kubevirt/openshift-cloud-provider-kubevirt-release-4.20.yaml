@@ -6,7 +6,7 @@ base_images:
   hypershift-operator:
     name: hypershift-operator
     namespace: hypershift
-    tag: latest
+    tag: "4.20"
 binary_build_commands: make build
 build_root:
   from_repository: true
